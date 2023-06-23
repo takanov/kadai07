@@ -1,0 +1,11 @@
+
+Q: apple
+A: apple
+Q: pear
+A: apple
+Q: Q1
+A: バラ
+Q: Q1
+A: バラ
+Q: Q1
+A: バラ
