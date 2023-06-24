@@ -12,7 +12,21 @@
     $q_array["Q2"]["回答3"] = "マグロ";
     $q_array["Q2"]["回答4"] = "コイ";
 
-    shuffle($q_array);//配列の要素をシャッフルする関数
+    // // キーと値のペアを保持したままシャッフルするための関数
+    // function shuffle_assoc(&$array) {
+    //     $keys = array_keys($array);
+    //     shuffle($keys);
+    //     $new = [];
+    //     foreach($keys as $key) {
+    //         $new[$key] = $array[$key];
+    //     }
+    //     $array = $new;
+    //     return true;
+    // }
+
+    // // この関数を使用してシャッフルする
+    // shuffle_assoc($q_array);
+
 ?>
 
 
@@ -27,7 +41,7 @@
 <body>
     <?php
     echo '<form method="post" action="write.php">';
-    foreach($q_array as $key => $val){
+    foreach($q_array as $key => $val){ //PHPでの => 記号は、配列のキーと値を関連付けるために使用
         echo '<h3>'.$key.' '.$q_array[$key]["設問"].'</h3>';
         foreach($q_array[$key] as $key2 => $val2){
             if($key2 != '設問'){

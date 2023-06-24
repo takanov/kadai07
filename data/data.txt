@@ -1,11 +1,2 @@
-
-Q: apple
-A: apple
-Q: pear
-A: apple
-Q: Q1
-A: バラ
-Q: Q1
-A: バラ
-Q: Q1
-A: バラ
+{"question":"Q1","selected":"\u30d0\u30e9","correct":"\u30d0\u30e9"}
+{"question":"Q2","selected":"\u30de\u30b0\u30ed","correct":"\u30de\u30b0\u30ed"}
